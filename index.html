@@ -9,11 +9,27 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Capriola&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/f99f12c5f9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio-OJ</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <div class="container">
-    <body>
+  <body>
+    <div class="container">
       <div class="hero">
         <div class="logo">
           <img src="images/logo.png" alt="logo" />
@@ -27,7 +43,11 @@
       <div class="main-section">
         <div class="row">
           <div class="col-6">
-            <img src="images/headshot.jpg" alt="headshot" class="headshot" />
+            <img
+              src="images/headshot.jpg"
+              alt="headshot"
+              class="headshot shadow"
+            />
           </div>
 
           <div class="col-6">
@@ -54,25 +74,45 @@
                 -Rumi
               </i>
             </div>
-            <button>About Me</button>
+            <button class="shadow">About Me</button>
           </div>
         </div>
         <h2>Featured Projects</h2>
         <div class="row">
           <div class="col-4">
-            <img src="images/plus.png" alt="plus-project" />
-            <p>paragraph</p>
+            <img src="images/plus.png" alt="plus-project" class="shadow" />
+            <div class="projects-details">
+              Weather App built with HTML, CSS and JavaScript
+            </div>
           </div>
           <div class="col-4">
-            <img src="images/react.png" alt="responsive-project" />
-            <p>paragraph</p>
+            <img
+              src="images/responsive.png"
+              alt="responsive-project"
+              class="shadow"
+            />
+            <div class="projects-details">
+              Responsive website built with HTML, CSS and Bootstrap
+            </div>
           </div>
           <div class="col-4">
-            <img src="images/responsive.png" alt="react-project" />
-            <p>paragraph</p>
+            <img src="images/react.png" alt="react-project" class="shadow" />
+            <div class="projects-details">Weather App built using React.js</div>
           </div>
+          <button class="btn btn-secondary mb-5 mt-5 shadow rounded disabled">
+            VIEW ALL PROJECTS
+          </button>
         </div>
       </div>
-       </div>
-    </body>
+    </div>
+    <footer>
+      <h3>Get In Touch</h3>
+      <div class="footer-paragraph">Send me a message to get in touch!</div>
+      <button class="footer-button">Contact Me</button>
+    </footer>
+    <div class="socials">
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-github"></i>
+    </div>
+  </body>
 </html>
