@@ -37,6 +37,11 @@ footer {
   margin-bottom: 105px;
 }
 
+a {
+  color: #fc4997;
+  text-decoration: none;
+}
+
 .footer-paragraph {
   text-align: center;
   font-size: 30px;
@@ -116,4 +121,17 @@ footer {
   color: #a6a6a6;
   font-size: 20px;
   margin: 20px 15px;
+}
+
+.socials {
+  text-align: center;
+  font-size: 30px;
+  color: #ff66c4;
+}
+
+.website-by {
+  color: #a6a6a6;
+  font-size: 17px;
+  text-align: center;
+  margin: 15px;
 }
