@@ -38,7 +38,7 @@ main {
 main h1 {
   font-size: 75px;
   text-align: center;
-  margin: 25px 25px;
+  margin: 65px 25px;
 }
 
 main p {
@@ -49,13 +49,14 @@ main p {
 
 footer {
   background-color: #f1f5f9;
-  padding: 50px 100px;
+  padding: 95px 110px;
   margin-bottom: 105px;
 }
 
 a {
   color: #fc4997;
   text-decoration: none;
+  margin-right: 17px;
 }
 
 .footer-paragraph {
@@ -83,6 +84,11 @@ a {
   color: #a6a6a6;
   margin: 15px;
   text-align: center;
+}
+
+.projects-page-main img {
+  border-radius: 15px;
+  width: 10px;
 }
 
 .hero img {
@@ -131,6 +137,7 @@ a {
 .main-section p {
   color: #a6a6a6;
   line-height: 1.5;
+  width: auto;
 }
 
 .qoute {
