@@ -31,6 +31,22 @@ img {
   width: 315px;
 }
 
+main {
+  margin-bottom: 95px;
+}
+
+main h1 {
+  font-size: 75px;
+  text-align: center;
+  margin: 25px 25px;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 footer {
   background-color: #f1f5f9;
   padding: 50px 100px;
