@@ -86,16 +86,16 @@ a {
   text-align: center;
 }
 
-.projects-page-main img {
-  border-radius: 15px;
-  width: 10px;
+.projects-paragraph {
+  font-size: 25px;
+  margin-bottom: 55px;
+  color: #a6a6a6;
 }
 
 .hero img {
   display: block;
   margin: 0 auto;
   width: 400px;
-  margin-bottom: none;
   margin-top: 45px;
   border-radius: 35px;
 }
