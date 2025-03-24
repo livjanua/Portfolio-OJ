@@ -153,6 +153,12 @@ a {
   margin: 20px 15px;
 }
 
+.code-tools {
+  text-align: center;
+  font-size: 100px;
+  color: #ff66c4;
+}
+
 .socials {
   text-align: center;
   font-size: 30px;
