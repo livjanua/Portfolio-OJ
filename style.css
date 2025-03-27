@@ -232,3 +232,18 @@ form button:hover {
   text-align: center;
   margin: 15px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+}
