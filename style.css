@@ -130,6 +130,7 @@ form button:hover {
   border: none;
   padding: 17px 60px;
   margin-top: 25px;
+  transition: background-color 0.3s ease;
 }
 
 .footer-button:hover {
@@ -175,6 +176,7 @@ form button:hover {
   margin: 15px 25px;
   border-radius: 30px;
   border: none;
+  transition: background-color 0.3s ease;
 }
 
 .hero button:hover {
@@ -234,6 +236,16 @@ form button:hover {
 }
 
 @media (max-width: 576px) {
+  .headshot {
+    display: none;
+  }
+  .main-section h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .main-section button {
+    text-align: center;
+  }
   h1 {
     font-size: 75px;
   }
@@ -245,5 +257,6 @@ form button:hover {
   }
   p {
     font-size: 15px;
+    text-align: center;
   }
 }
