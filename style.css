@@ -236,27 +236,84 @@ form button:hover {
 }
 
 @media (max-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
   .headshot {
     display: none;
   }
   .main-section h1 {
     font-size: 60px;
     text-align: center;
+    margin-bottom: 23px;
   }
   .main-section button {
-    text-align: center;
+    padding: 11px 15px;
   }
+
+  main h1 {
+    font-size: 60px;
+  }
+
+  main p {
+    font-size: 13px;
+  }
+
   h1 {
-    font-size: 75px;
+    font-size: 55px;
   }
   h2 {
     font-size: 40px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 30px;
+    margin-bottom: 25px;
   }
   p {
     font-size: 15px;
     text-align: center;
+  }
+
+  .projects-paragraph {
+    font-size: 20px;
+  }
+  .col-sm-6 img {
+    display: none;
+  }
+
+  ul li {
+    list-style-type: none;
+    margin-top: 15px;
+  }
+
+  .btn {
+    margin-left: 30px;
+  }
+
+  Footer {
+    padding: 50px 70px;
+    margin-top: 100px;
+  }
+
+  .footer-button {
+    padding: 9px 20px;
+  }
+
+  .footer-paragraph {
+    font-size: 20px;
+  }
+
+  .socials {
+    font-size: 25px;
+  }
+
+  .website-by {
+    font-size: 13px;
+    margin: 14px;
   }
 }
