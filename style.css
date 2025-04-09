@@ -216,10 +216,18 @@ form button:hover {
   margin: 20px 15px;
 }
 
+.tools-heading {
+  color: #a6a6a6;
+  font-size: 70px;
+  font-family: "Capriola", sans-serif;
+  font-weight: 400;
+  padding: 25px 35px;
+  margin-left: -15px;
+}
+
 .code-tools {
-  text-align: center;
-  font-size: 100px;
-  color: #ff66c4;
+  font-size: 27px;
+  color: #a6a6a6;
 }
 
 .socials {
