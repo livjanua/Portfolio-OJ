@@ -1,5 +1,8 @@
 body {
   font-family: "Quicksand", sans-serif;
+  height: 200vh;
+  transition: background-color 0.2s ease;
+  background: #ffffff;
 }
 
 h1 {
